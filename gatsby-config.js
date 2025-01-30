@@ -57,16 +57,16 @@ module.exports = {
         ],
       },
     },
-    `gatsby-transformer-sharp`,
-    {
-      resolve: `gatsby-plugin-sharp`,
-      options: {
-        // Add options to avoid AVIF if necessary
-        defaultQuality: 75, // Adjust quality as needed
-        // You can also specify formats to exclude
-        formats: [`auto`, `webp`, `jpeg`], // Exclude AVIF
-      },
-    },
+    // `gatsby-transformer-sharp`,
+    // {
+    //   resolve: `gatsby-plugin-sharp`,
+    //   options: {
+    //     // Add options to avoid AVIF if necessary
+    //     defaultQuality: 75, // Adjust quality as needed
+    //     // You can also specify formats to exclude
+    //     formats: [`auto`, `webp`, `jpeg`], // Exclude AVIF
+    //   },
+    // },
     {
       resolve: `gatsby-plugin-feed`,
       options: {
